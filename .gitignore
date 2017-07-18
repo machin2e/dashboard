@@ -57,3 +57,6 @@ typings/
 # dotenv environment variables file
 .env
 
+# GitHub Authentication
+GITHUB_CLIENT_ID
+GITHUB_CLIENT_SECRET
