@@ -2,3 +2,9 @@
 <p>Username: <%= user.username %></p>
 <p>Name: <%= user.displayName %></p>
 <p>Repos URL: <%= user.repos_url %></p>
+
+<ul>
+<% for (var i = 0; i < user.repos.length; i++) { %>
+	<li><%= user.repos[i].name %></li>
+<% } %>
+</ul>
